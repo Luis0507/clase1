@@ -10,6 +10,33 @@ body{
     font-style: normal;
 }
 
+header .header-container{
+    display: flex;
+    background-color: #eeeeee;
+    position: fixed;
+    width: 100%;
+}
+
+.bigbanner img{
+    width: 100%;
+}
+
+header .header-container ul{
+    display: inherit;
+    width: 100%;
+}
+
+header .header-container ul li{
+    margin: 0% 1.5% 1% 2%;
+    width: 19%;
+    list-style: none;
+}
+
+header .header-container ul li:hover{
+    font-style: oblique;
+
+}
+
 h1 {
   color: rgba(22, 29, 24, 1); 
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -90,5 +117,4 @@ footer .container-footer .colum-footer {
         margin: 0 2.1%;
         padding: 1 3%;
     }
-    
 }
